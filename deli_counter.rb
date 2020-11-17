@@ -10,9 +10,9 @@ def line deli
     end
   end
 
-  def take_a_number(deli, newPerson)
-    deli << newPerson
-    puts "Welcome, #{newPerson}. You are number #{deli.length} in line."
+  def take_a_number(deli, customer)
+    deli << customer
+    puts "Welcome, #{customer}. You are number #{deli.length} in line."
    
     
     def now_serving(deli)
